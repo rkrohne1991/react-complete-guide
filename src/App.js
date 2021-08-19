@@ -39,7 +39,7 @@ const App = () => {
   // );
 
   const addExpenseHandler = (expense) => {
-    console.log('In App.js');
+    console.log("In App.js");
     console.log(expense);
   };
 
@@ -49,6 +49,6 @@ const App = () => {
       <Expenses items={expenses} />
     </div>
   );
-}
+};
 
 export default App;
